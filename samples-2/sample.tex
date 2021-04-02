@@ -1,0 +1,102 @@
+% 文書のスタイルの指定（おまじないだと思っても良い)
+\documentclass{jsarticle}
+
+% 図の挿入のためのパッケージ読み込み
+% [dvipdfmx] はオプション、{graphicx}が読み込むパッケージ
+\usepackage[dvipdfmx]{graphicx}
+% その他必要なパッケージがあれば \usepackage{***} を追加
+\usepackage{url}
+
+% タイトルや著者、日付などの設定
+\title{物理学実験I（計算機）\LaTeX の概要}
+\author{学籍番号 xxxxxxxx だれだれ}
+\date{\today}
+
+% ここからが本文。\begin{document}　から　\end{document}　まで。
+\begin{document}
+\maketitle  % 上で設定したタイトルや著者を挿入
+
+\section{セクション}
+ここはセクション１です。
+\subsection{サブセクション１−１}
+ここはサブセクション１−１です
+\subsubsection{サブサブセクション１−１−１}
+ここはサブサブセクション１−１−１です。
+
+\section{文字入力}
+ここはセクション２です。
+\TeX ではコード内で改行しても出力は改行されません。改行するためには空白行を一行入れます。
+
+こんな感じで。
+
+また、バックシュラッシュ２つを入れることで、強制的に改行を入れることもできます。\\ こんなかんじ。この場合、インデントは入らない。
+
+
+\section{数式}
+数式の入力は２パターンあります。
+
+\subsection{インライン数式}
+文書の中に数式を埋め込む。そのためには数式を\$で囲みます。
+以下のような感じ。
+
+$y=ax+b$は一次関数です。$y=ax^2+bx+c$ は２次関数です。積分記号やexponentialもこのようにかけます。$y=\int_0^\infty \exp(-x^2) dx$。科学論文では通常、数式はイタリック（斜体）で書きます。ただし、$\sin$ や $\exp$、$\log$ などは斜体にしない。
+
+\subsection{ディスプレイ数式}
+数式だけを独立して書きたい場合は、以下のようにします。
+\begin{equation}
+p(N) = \frac{m^N}{N!} \exp(-m)
+\label{eq:poisson}  % この式を参照するときのラベルの設定。本文中で \ref{eq:poisson} と書くとこの式番号が参照される。
+\end{equation}
+これはポアソン分布です。勝手に式番号も振ってくれます。こんな複雑な数式も書くことができます。
+\begin{equation}
+  \frac{\pi}{2} =
+  \left( \int_{0}^{\infty} \frac{\sin x}{\sqrt{x}} dx \right)^2 =
+  \sum_{k=0}^{\infty} \frac{(2k)!}{2^{2k}(k!)^2} \frac{1}{2k+1} =
+  \prod_{k=1}^{\infty} \frac{4k^2}{4k^2 - 1}
+\end{equation}
+
+特によく使うものとして、分数の書き方 (\textbackslash frac\{分子\}\{分母\} )や上付き文字 (x\textasciicircum a)、下付き文字 (a\_1) は覚えておきましょう。
+
+他の数式入力の方法もここ \url{http://www.latex-cmd.com/equation/equation.html} に解説されてます。
+
+
+
+\section{図}
+図の挿入は、この.texのファイルの他に図のファイル（例えばこれまでに作ったポアソン分布のグラフのPNGとか）をフォルダに入れておきます。フォルダの場所は任意です。以下のようにして図を挿入します。詳しくは \url{http://www.latex-cmd.com/fig_tab/figure01.html} を参考に。
+
+\begin{figure} % 挿入場所はTeXが勝手に判断する。
+%\begin{figure}[t] % 挿入場所を紙面の上の方にしたければ[t]
+%\begin{figure}[b] % 挿入場所を紙面の下の方にしたければ[b]
+\centering %中央に寄せる
+\includegraphics[scale=0.5]{figures/poisson.png}  % 図の挿入。必要に応じて図が置かれているディレクトリも指定する。
+\caption{ここにキャプションを挿入します} % キャプションは必ず書く。
+\label{fig:poisson} % この図を参照するときのラベルの設定。本文中で \ref{fig:poisson} と書くとこの図の番号が挿入される。
+\end{figure}
+
+
+\section{参照}
+
+図や数式に \textbackslash label\{hogehoge\} とラベルを与えておくと、そのラベルを参照することができます。例えば図の順番を入れ替えたりしたときに図の番号が変わった場合でも、自動で本文で参照している図の番号も変えてくれるので大変便利。hogehoge というラベルを参照するには \textbackslash ref\{hogehoge\} と入力します。例えば以下。
+
+図\ref{fig:poisson}は式（\ref{eq:poisson}) のポアソン分布で$m=10, 20, 30, 40$ とした場合の計算結果である。 $N$ が 35 以上で値が 0 になってしまっていることが分かる。
+
+
+\section{参考文献}
+
+何か web や本などで調べた場合は、必ず引用して下さい。\LaTeX には引用のための機能もあります。それが以下の thebibliography 環境です。
+
+「\textbackslash bibitem\{ラベル\} 参照文献」を１行ずつ書いていく。ラベルを参照するには \textbackslash cite\{ラベル\} と入力する。図や数式のラベルの参照方法とは違うので気をつける。
+
+例えば以下。
+
+本資料は文献 \cite{ref1}, \cite{ref2} および \cite{ref3} を参考に作っています。
+
+\begin{thebibliography}{99}
+\bibitem{ref1} \TeX ~Wiki (https://texwiki.texjp.org/)
+\bibitem{ref2} http://www.ic.daito.ac.jp/~mizutani/tex/index.html
+\bibitem{ref3} http://www.latex-cmd.com/
+\end{thebibliography}
+
+
+
+\end{document}

@@ -1,0 +1,793 @@
+
+
+*******************************************************************************
+Tue May  5 07:01:54 2020
+
+
+FIT:    data read from "11351Leucus_spectrum.dat" using ($1/1e4):2
+        format = x:z
+        #datapoints = 573
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.2811734773e+01   0.00e+00  7.07e-01    1.000000e-02   1.000000e+00
+   5 4.0349531196e-01  -1.74e-03  7.07e-06    1.031287e+00   4.296324e-01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 0.403495
+rel. change during last iteration : -1.7393e-08
+
+degrees of freedom    (FIT_NDF)                        : 571
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0265828
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000706647
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.03129          +/- 0.009145     (0.8867%)
+b               = 0.429632         +/- 0.006581     (1.532%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.986  1.000 
+
+
+*******************************************************************************
+Tue May  5 07:39:36 2020
+
+
+FIT:    data read from "gaussian_data.csv" using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 5.00000]
+BREAK: No data to fit
+
+*******************************************************************************
+Tue May  5 07:42:31 2020
+
+
+FIT:    data read from "gaussian_data.csv" using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 5.00000]
+BREAK: No data to fit
+
+*******************************************************************************
+Tue May  5 07:46:11 2020
+
+
+FIT:    data read from "gaussian_data.csv" using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 5.00000]
+        #datapoints = 51
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = ((2*pi*(shiguma1**2))**(-1/2))*exp(-((x-mu1)**2)/(2*shiguma1**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   shiguma       mu           
+   0 2.3560187010e+01   0.00e+00  0.00e+00    1.000000e+00   1.000000e+00
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Tue May  5 07:46:47 2020
+
+
+FIT:    data read from "gaussian_data.csv" using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 5.00000]
+        #datapoints = 51
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = ((2*pi*(shiguma1**2))**(-1/2))*exp(-((x-mu1)**2)/(2*shiguma1**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   shiguma       mu           
+   0 2.3560187010e+01   0.00e+00  0.00e+00    1.000000e+00   1.000000e+00
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Tue May  5 07:47:29 2020
+
+
+FIT:    data read from "gaussian_data.csv" using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 5.00000]
+        #datapoints = 51
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = ((2*pi*(shiguma1**2))**(-1/2))*exp(-((x-mu1)**2)/(2*shiguma1**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   shiguma1      mu1          
+   0 2.3560187010e+01   0.00e+00  2.98e-01    3.000000e+00   1.000000e+00
+   7 5.0703645464e-01  -4.93e-02  2.98e-08   -4.312817e-01   2.550171e+00
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.507036
+rel. change during last iteration : -4.92954e-07
+
+degrees of freedom    (FIT_NDF)                        : 49
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.101724
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0103477
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+shiguma1        = -0.431282        +/- 0.01833      (4.249%)
+mu1             = 2.55017          +/- 0.02244      (0.88%)
+
+correlation matrix of the fit parameters:
+                shigum mu1    
+shiguma1        1.000 
+mu1             0.001  1.000 
+
+
+*******************************************************************************
+Tue May  5 07:54:53 2020
+
+
+FIT:    data read from "gaussian_data.csv" using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 5.00000]
+        #datapoints = 51
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = ((2*pi*(shiguma1**2))**(-1/2))*exp(-((x-mu1)**2)/(2*shiguma1**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   shiguma1      mu1          
+   0 2.3560187010e+01   0.00e+00  2.98e-01    3.000000e+00   1.000000e+00
+   7 5.0703645464e-01  -4.93e-02  2.98e-08   -4.312817e-01   2.550171e+00
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.507036
+rel. change during last iteration : -4.92954e-07
+
+degrees of freedom    (FIT_NDF)                        : 49
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.101724
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0103477
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+shiguma1        = -0.431282        +/- 0.01833      (4.249%)
+mu1             = 2.55017          +/- 0.02244      (0.88%)
+
+correlation matrix of the fit parameters:
+                shigum mu1    
+shiguma1        1.000 
+mu1             0.001  1.000 
+
+
+*******************************************************************************
+Tue May  5 07:54:53 2020
+
+
+FIT:    data read from "gaussian_data.csv" using 1:2
+        format = x:z
+        x range restricted to [5.00000 : 10.0000]
+        #datapoints = 51
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+	g(x) = ((2*pi*(shiguma2**2))**(-1/2))*exp(-((x-mu2)**2)/(2*shiguma2**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   shiguma2      mu2          
+   0 1.5664667174e+01   0.00e+00  1.86e-02    1.000000e+00   2.000000e+00
+  15 1.2308537594e+01  -8.30e-01  1.86e-07    5.828148e+00  -2.540841e+00
+
+After 15 iterations the fit converged.
+final sum of squares of residuals : 12.3085
+rel. change during last iteration : -8.2959e-06
+
+degrees of freedom    (FIT_NDF)                        : 49
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.501193
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.251195
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+shiguma2        = 5.82815          +/- 4.496        (77.14%)
+mu2             = -2.54084         +/- 7.242        (285%)
+
+correlation matrix of the fit parameters:
+                shigum mu2    
+shiguma2        1.000 
+mu2            -0.990  1.000 
+
+
+*******************************************************************************
+Tue May  5 07:59:53 2020
+
+
+FIT:    data read from "gaussian_data.csv" using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 5.00000]
+        #datapoints = 51
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = ((2*pi*(shiguma1**2))**(-1/2))*exp(-((x-mu1)**2)/(2*shiguma1**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   shiguma1      mu1          
+   0 1.6434852402e+01   0.00e+00  3.75e-01    1.000000e+00   1.000000e+00
+   8 5.0703616738e-01   0.00e+00  3.75e+04    4.313069e-01   2.550113e+00
+
+After 8 iterations the fit converged.
+final sum of squares of residuals : 0.507036
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 49
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.101724
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0103477
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+shiguma1        = 0.431307         +/- 0.01833      (4.249%)
+mu1             = 2.55011          +/- 0.02244      (0.88%)
+
+correlation matrix of the fit parameters:
+                shigum mu1    
+shiguma1        1.000 
+mu1            -0.001  1.000 
+
+
+*******************************************************************************
+Tue May  5 07:59:53 2020
+
+
+FIT:    data read from "gaussian_data.csv" using 1:2
+        format = x:z
+        x range restricted to [5.00000 : 10.0000]
+        #datapoints = 51
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+	g(x) = ((2*pi*(shiguma2**2))**(-1/2))*exp(-((x-mu2)**2)/(2*shiguma2**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   shiguma2      mu2          
+   0 1.2027670557e+01   0.00e+00  2.49e+00    5.000000e-01   6.000000e+00
+  16 3.7801560849e+00  -9.23e-01  2.49e+01    2.909360e-01   6.502892e+00
+
+After 16 iterations the fit converged.
+final sum of squares of residuals : 3.78016
+rel. change during last iteration : -9.22984e-06
+
+degrees of freedom    (FIT_NDF)                        : 49
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.277752
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.077146
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+shiguma2        = 0.290936         +/- 0.0411       (14.13%)
+mu2             = 6.50289          +/- 0.05033      (0.7739%)
+
+correlation matrix of the fit parameters:
+                shigum mu2    
+shiguma2        1.000 
+mu2            -0.005  1.000 
+
+
+*******************************************************************************
+Tue May  5 08:05:33 2020
+
+
+FIT:    data read from "gaussian_data.csv" using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 5.00000]
+        #datapoints = 51
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = (1.0/sqrt(2.0*pi*shiguma1**2))*exp(-(x-mu1)**2/(2*shiguma1**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   shiguma1      mu1          
+   0 6.5124262947e+00   0.00e+00  1.67e-01    1.000000e+00   1.000000e+00
+  14 3.7671025136e-01  -8.22e-07  1.67e+00    4.789287e-01   2.549603e+00
+
+After 14 iterations the fit converged.
+final sum of squares of residuals : 0.37671
+rel. change during last iteration : -8.22241e-12
+
+degrees of freedom    (FIT_NDF)                        : 49
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.087681
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00768796
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+shiguma1        = 0.478929         +/- 0.01999      (4.175%)
+mu1             = 2.5496           +/- 0.02447      (0.9598%)
+
+correlation matrix of the fit parameters:
+                shigum mu1    
+shiguma1        1.000 
+mu1            -0.003  1.000 
+
+
+*******************************************************************************
+Tue May  5 08:05:33 2020
+
+
+FIT:    data read from "gaussian_data.csv" using 1:2
+        format = x:z
+        x range restricted to [5.00000 : 10.0000]
+        #datapoints = 51
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+	g(x) =(1.0/sqrt(2.0*pi*shiguma2**2))*exp(-(x-mu2)**2/(2*shiguma2**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   shiguma2      mu2          
+   0 1.1336473449e+01   0.00e+00  1.99e+00    5.000000e-01   6.000000e+00
+  11 3.8326471828e-01  -5.24e-02  1.99e-07    1.913980e-01   6.495245e+00
+
+After 11 iterations the fit converged.
+final sum of squares of residuals : 0.383265
+rel. change during last iteration : -5.23628e-07
+
+degrees of freedom    (FIT_NDF)                        : 49
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0884405
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00782173
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+shiguma2        = 0.191398         +/- 0.005096     (2.663%)
+mu2             = 6.49525          +/- 0.006237     (0.09603%)
+
+correlation matrix of the fit parameters:
+                shigum mu2    
+shiguma2        1.000 
+mu2            -0.021  1.000 
+
+
+*******************************************************************************
+Tue May  5 08:07:43 2020
+
+
+FIT:    data read from "gaussian_data.csv" using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 5.00000]
+        #datapoints = 51
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = (1.0/sqrt(2.0*pi*shiguma1**2))*exp(-(x-mu1)**2/(2*shiguma1**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   shiguma1      mu1          
+   0 6.5124262947e+00   0.00e+00  1.67e-01    1.000000e+00   1.000000e+00
+  14 3.7671025136e-01  -8.22e-07  1.67e+00    4.789287e-01   2.549603e+00
+
+After 14 iterations the fit converged.
+final sum of squares of residuals : 0.37671
+rel. change during last iteration : -8.22241e-12
+
+degrees of freedom    (FIT_NDF)                        : 49
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.087681
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00768796
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+shiguma1        = 0.478929         +/- 0.01999      (4.175%)
+mu1             = 2.5496           +/- 0.02447      (0.9598%)
+
+correlation matrix of the fit parameters:
+                shigum mu1    
+shiguma1        1.000 
+mu1            -0.003  1.000 
+
+
+*******************************************************************************
+Tue May  5 08:07:43 2020
+
+
+FIT:    data read from "gaussian_data.csv" using 1:2
+        format = x:z
+        x range restricted to [5.00000 : 10.0000]
+        #datapoints = 51
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+	g(x) =(1.0/sqrt(2.0*pi*shiguma2**2))*exp(-(x-mu2)**2/(2*shiguma2**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   shiguma2      mu2          
+   0 1.1336473449e+01   0.00e+00  1.99e+00    5.000000e-01   6.000000e+00
+  11 3.8326471828e-01  -5.24e-02  1.99e-07    1.913980e-01   6.495245e+00
+
+After 11 iterations the fit converged.
+final sum of squares of residuals : 0.383265
+rel. change during last iteration : -5.23628e-07
+
+degrees of freedom    (FIT_NDF)                        : 49
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0884405
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00782173
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+shiguma2        = 0.191398         +/- 0.005096     (2.663%)
+mu2             = 6.49525          +/- 0.006237     (0.09603%)
+
+correlation matrix of the fit parameters:
+                shigum mu2    
+shiguma2        1.000 
+mu2            -0.021  1.000 
+
+
+*******************************************************************************
+Tue May  5 08:08:37 2020
+
+
+FIT:    data read from "gaussian_data.csv" using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 5.00000]
+        #datapoints = 51
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = (1.0/sqrt(2.0*pi*shiguma1**2))*exp(-(x-mu1)**2/(2*shiguma1**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   shiguma1      mu1          
+   0 6.5124262947e+00   0.00e+00  1.67e-01    1.000000e+00   1.000000e+00
+  14 3.7671025136e-01  -8.22e-07  1.67e+00    4.789287e-01   2.549603e+00
+
+After 14 iterations the fit converged.
+final sum of squares of residuals : 0.37671
+rel. change during last iteration : -8.22241e-12
+
+degrees of freedom    (FIT_NDF)                        : 49
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.087681
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00768796
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+shiguma1        = 0.478929         +/- 0.01999      (4.175%)
+mu1             = 2.5496           +/- 0.02447      (0.9598%)
+
+correlation matrix of the fit parameters:
+                shigum mu1    
+shiguma1        1.000 
+mu1            -0.003  1.000 
+
+
+*******************************************************************************
+Tue May  5 08:08:37 2020
+
+
+FIT:    data read from "gaussian_data.csv" using 1:2
+        format = x:z
+        x range restricted to [5.00000 : 10.0000]
+        #datapoints = 51
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+	g(x) =(1.0/sqrt(2.0*pi*shiguma2**2))*exp(-(x-mu2)**2/(2*shiguma2**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   shiguma2      mu2          
+   0 1.1336473449e+01   0.00e+00  1.99e+00    5.000000e-01   6.000000e+00
+  11 3.8326471828e-01  -5.24e-02  1.99e-07    1.913980e-01   6.495245e+00
+
+After 11 iterations the fit converged.
+final sum of squares of residuals : 0.383265
+rel. change during last iteration : -5.23628e-07
+
+degrees of freedom    (FIT_NDF)                        : 49
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0884405
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00782173
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+shiguma2        = 0.191398         +/- 0.005096     (2.663%)
+mu2             = 6.49525          +/- 0.006237     (0.09603%)
+
+correlation matrix of the fit parameters:
+                shigum mu2    
+shiguma2        1.000 
+mu2            -0.021  1.000 
+
+
+*******************************************************************************
+Tue May  5 08:09:40 2020
+
+
+FIT:    data read from "gaussian_data.csv" using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 5.00000]
+        #datapoints = 51
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = (1.0/sqrt(2.0*pi*shiguma1**2))*exp(-(x-mu1)**2/(2*shiguma1**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   shiguma1      mu1          
+   0 6.5124262947e+00   0.00e+00  1.67e-01    1.000000e+00   1.000000e+00
+  14 3.7671025136e-01  -8.22e-07  1.67e+00    4.789287e-01   2.549603e+00
+
+After 14 iterations the fit converged.
+final sum of squares of residuals : 0.37671
+rel. change during last iteration : -8.22241e-12
+
+degrees of freedom    (FIT_NDF)                        : 49
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.087681
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00768796
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+shiguma1        = 0.478929         +/- 0.01999      (4.175%)
+mu1             = 2.5496           +/- 0.02447      (0.9598%)
+
+correlation matrix of the fit parameters:
+                shigum mu1    
+shiguma1        1.000 
+mu1            -0.003  1.000 
+
+
+*******************************************************************************
+Tue May  5 08:09:40 2020
+
+
+FIT:    data read from "gaussian_data.csv" using 1:2
+        format = x:z
+        x range restricted to [5.00000 : 10.0000]
+        #datapoints = 51
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+	g(x) =(1.0/sqrt(2.0*pi*shiguma2**2))*exp(-(x-mu2)**2/(2*shiguma2**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   shiguma2      mu2          
+   0 1.0910612086e+01   0.00e+00  6.20e-01    1.000000e+00   6.000000e+00
+  14 3.8326471202e-01  -2.06e-02  6.20e-07    1.913989e-01   6.495245e+00
+
+After 14 iterations the fit converged.
+final sum of squares of residuals : 0.383265
+rel. change during last iteration : -2.05887e-07
+
+degrees of freedom    (FIT_NDF)                        : 49
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0884405
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00782173
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+shiguma2        = 0.191399         +/- 0.005096     (2.663%)
+mu2             = 6.49524          +/- 0.006237     (0.09603%)
+
+correlation matrix of the fit parameters:
+                shigum mu2    
+shiguma2        1.000 
+mu2            -0.021  1.000 
+
+
+*******************************************************************************
+Tue May  5 08:09:48 2020
+
+
+FIT:    data read from "gaussian_data.csv" using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 5.00000]
+        #datapoints = 51
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = (1.0/sqrt(2.0*pi*shiguma1**2))*exp(-(x-mu1)**2/(2*shiguma1**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   shiguma1      mu1          
+   0 6.5124262947e+00   0.00e+00  1.67e-01    1.000000e+00   1.000000e+00
+  14 3.7671025136e-01  -8.22e-07  1.67e+00    4.789287e-01   2.549603e+00
+
+After 14 iterations the fit converged.
+final sum of squares of residuals : 0.37671
+rel. change during last iteration : -8.22241e-12
+
+degrees of freedom    (FIT_NDF)                        : 49
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.087681
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00768796
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+shiguma1        = 0.478929         +/- 0.01999      (4.175%)
+mu1             = 2.5496           +/- 0.02447      (0.9598%)
+
+correlation matrix of the fit parameters:
+                shigum mu1    
+shiguma1        1.000 
+mu1            -0.003  1.000 
+
+
+*******************************************************************************
+Tue May  5 08:09:48 2020
+
+
+FIT:    data read from "gaussian_data.csv" using 1:2
+        format = x:z
+        x range restricted to [5.00000 : 10.0000]
+        #datapoints = 51
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+	g(x) =(1.0/sqrt(2.0*pi*shiguma2**2))*exp(-(x-mu2)**2/(2*shiguma2**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   shiguma2      mu2          
+   0 1.0910612086e+01   0.00e+00  6.20e-01    1.000000e+00   6.000000e+00
+  14 3.8326471202e-01  -2.06e-02  6.20e-07    1.913989e-01   6.495245e+00
+
+After 14 iterations the fit converged.
+final sum of squares of residuals : 0.383265
+rel. change during last iteration : -2.05887e-07
+
+degrees of freedom    (FIT_NDF)                        : 49
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0884405
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00782173
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+shiguma2        = 0.191399         +/- 0.005096     (2.663%)
+mu2             = 6.49524          +/- 0.006237     (0.09603%)
+
+correlation matrix of the fit parameters:
+                shigum mu2    
+shiguma2        1.000 
+mu2            -0.021  1.000 
+
+
+*******************************************************************************
+Tue May  5 08:11:28 2020
+
+
+FIT:    data read from "gaussian_data.csv" using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 5.00000]
+        #datapoints = 51
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = (1.0/sqrt(2.0*pi*shiguma1**2))*exp(-(x-mu1)**2/(2*shiguma1**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   shiguma1      mu1          
+   0 6.5124262947e+00   0.00e+00  1.67e-01    1.000000e+00   1.000000e+00
+  14 3.7671025136e-01  -8.22e-07  1.67e+00    4.789287e-01   2.549603e+00
+
+After 14 iterations the fit converged.
+final sum of squares of residuals : 0.37671
+rel. change during last iteration : -8.22241e-12
+
+degrees of freedom    (FIT_NDF)                        : 49
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.087681
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00768796
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+shiguma1        = 0.478929         +/- 0.01999      (4.175%)
+mu1             = 2.5496           +/- 0.02447      (0.9598%)
+
+correlation matrix of the fit parameters:
+                shigum mu1    
+shiguma1        1.000 
+mu1            -0.003  1.000 
+
+
+*******************************************************************************
+Tue May  5 08:11:28 2020
+
+
+FIT:    data read from "gaussian_data.csv" using 1:2
+        format = x:z
+        x range restricted to [5.00000 : 10.0000]
+        #datapoints = 51
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+	g(x) =(1.0/sqrt(2.0*pi*shiguma2**2))*exp(-(x-mu2)**2/(2*shiguma2**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   shiguma2      mu2          
+   0 4.2473490492e+01   0.00e+00  2.23e+01    1.000000e-01   6.000000e+00
+   9 3.8326475406e-01  -3.48e-01  2.23e-06    1.913940e-01   6.495248e+00
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 0.383265
+rel. change during last iteration : -3.48367e-06
+
+degrees of freedom    (FIT_NDF)                        : 49
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0884405
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00782173
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+shiguma2        = 0.191394         +/- 0.005096     (2.663%)
+mu2             = 6.49525          +/- 0.006237     (0.09603%)
+
+correlation matrix of the fit parameters:
+                shigum mu2    
+shiguma2        1.000 
+mu2            -0.021  1.000 
+
+
+*******************************************************************************
+Tue May  5 08:13:19 2020
+
+
+FIT:    data read from "gaussian_data.csv" using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 5.00000]
+        #datapoints = 51
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = (1.0/sqrt(2.0*pi*shiguma1**2))*exp(-(x-mu1)**2/(2*shiguma1**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   shiguma1      mu1          
+   0 6.5124262947e+00   0.00e+00  1.67e-01    1.000000e+00   1.000000e+00
+  14 3.7671025136e-01  -8.22e-07  1.67e+00    4.789287e-01   2.549603e+00
+
+After 14 iterations the fit converged.
+final sum of squares of residuals : 0.37671
+rel. change during last iteration : -8.22241e-12
+
+degrees of freedom    (FIT_NDF)                        : 49
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.087681
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00768796
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+shiguma1        = 0.478929         +/- 0.01999      (4.175%)
+mu1             = 2.5496           +/- 0.02447      (0.9598%)
+
+correlation matrix of the fit parameters:
+                shigum mu1    
+shiguma1        1.000 
+mu1            -0.003  1.000 
+
+
+*******************************************************************************
+Tue May  5 08:13:19 2020
+
+
+FIT:    data read from "gaussian_data.csv" using 1:2
+        format = x:z
+        x range restricted to [5.00000 : 10.0000]
+        #datapoints = 51
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+	g(x) =(1.0/sqrt(2.0*pi*shiguma2**2))*exp(-(x-mu2)**2/(2*shiguma2**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   shiguma2      mu2          
+   0 4.2473490492e+01   0.00e+00  2.23e+01    1.000000e-01   6.000000e+00
+   9 3.8326475406e-01  -3.48e-01  2.23e-06    1.913940e-01   6.495248e+00
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 0.383265
+rel. change during last iteration : -3.48367e-06
+
+degrees of freedom    (FIT_NDF)                        : 49
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0884405
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00782173
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+shiguma2        = 0.191394         +/- 0.005096     (2.663%)
+mu2             = 6.49525          +/- 0.006237     (0.09603%)
+
+correlation matrix of the fit parameters:
+                shigum mu2    
+shiguma2        1.000 
+mu2            -0.021  1.000 

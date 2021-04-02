@@ -1,0 +1,45 @@
+PODS:
+  - EMTNeumorphicView (1.0.4)
+  - Kingfisher (6.0.1)
+  - NCMB (3.1.0)
+  - NYXImagesKit (2.3)
+  - RAMAnimatedTabBarController (5.2.0)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - EMTNeumorphicView
+  - Kingfisher
+  - NCMB (from `https://github.com/NIFTYCloud-mbaas/ncmb_ios.git`, branch `develop`)
+  - NYXImagesKit
+  - RAMAnimatedTabBarController
+  - SVProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - EMTNeumorphicView
+    - Kingfisher
+    - NYXImagesKit
+    - RAMAnimatedTabBarController
+    - SVProgressHUD
+
+EXTERNAL SOURCES:
+  NCMB:
+    :branch: develop
+    :git: https://github.com/NIFTYCloud-mbaas/ncmb_ios.git
+
+CHECKOUT OPTIONS:
+  NCMB:
+    :commit: 8abc6e8708f1ab306e1dcaf13da4019257e91fb1
+    :git: https://github.com/NIFTYCloud-mbaas/ncmb_ios.git
+
+SPEC CHECKSUMS:
+  EMTNeumorphicView: cb5e92953e43b1872ab47fefd451a9ce0c16fc77
+  Kingfisher: adde87a4f74f6a3845395769354efff593581740
+  NCMB: c308972109137bf523ec1830bac16de6a31c25f4
+  NYXImagesKit: 8163e3335a40eaa173ca5bbbf81fafb57d3947eb
+  RAMAnimatedTabBarController: 6863a386e7ae2ab227cd60aa73ab8ff56cdacfdd
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 74fc3676e6cfaac2348c3e75d17b17bcbe233732
+
+COCOAPODS: 1.8.4

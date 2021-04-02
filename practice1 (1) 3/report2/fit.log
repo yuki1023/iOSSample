@@ -1,0 +1,1025 @@
+
+
+*******************************************************************************
+Tue May 12 11:05:17 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1/1e4):2
+        format = x:z
+        #datapoints = 1672
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(λ)
+	f(λ) =2*6.6260*10**(-34)*(2.99792*10**8)**2/(λ**5*exp(6.626*10**(-34)*2.99792*10**8/(λ*1.3806*10**(-23)*T))-1)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Tue May 12 11:06:25 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1/1e4):2
+        format = x:z
+        #datapoints = 1672
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(ramuda)
+	f(ramuda) =2*6.6260*10**(-34)*(2.99792*10**8)**2/(ramuda**5*exp(6.626*10**(-34)*2.99792*10**8/(ramuda*1.3806*10**(-23)*T))-1)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Tue May 12 11:08:03 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1/1e4):2
+        format = x:z
+        #datapoints = 1672
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) =2*6.6260*10**(-34)*(2.99792*10**8)**2/(x**5*exp(6.626*10**(-34)*2.99792*10**8/(x*1.3806*10**(-23)*T))-1)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T            
+   0 1.1967090997e+03   0.00e+00  1.15e-12    5.700000e+03
+   1 1.1967090996e+03  -4.86e-06  1.15e-13    2.912056e+10
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1196.71
+rel. change during last iteration : -4.86145e-11
+
+degrees of freedom    (FIT_NDF)                        : 1671
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.846264
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.716163
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+T               = 2.91206e+10      +/- 1.136e+14    (3.902e+05%)
+
+
+*******************************************************************************
+Thu May 14 14:40:30 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1/1e4):($2/1e-3)
+        format = x:z
+        #datapoints = 1672
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) =2*6.6260*10**(-34)*(2.99792*10**8)**2/(x**5*exp(6.626*10**(-34)*2.99792*10**8/(x*1.3806*10**(-23)*T))-1)
+BREAK: Need via and either parameter list or file
+
+*******************************************************************************
+Thu May 14 14:47:02 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1/1e-7):($2/1e-14)
+        format = x:z
+        #datapoints = 1672
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(λ) =2*6.6260*10**(-34)*(2.99792*10**8)**2/(λ**5*exp(6.626*10**(-34)*2.99792*10**8/(λ*1.3806*10**(-23)*T))-1)
+BREAK: Need via and either parameter list or file
+
+*******************************************************************************
+Thu May 14 14:47:50 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1/1e-7):($2/1e-14)
+        format = x:z
+        #datapoints = 1672
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(λ) =2*6.6260*10**(-34)*(2.99792*10**8)**2/(λ**5*exp(6.626*10**(-34)*2.99792*10**8/(λ*1.3806*10**(-23)*T))-1)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T            
+   0 1.1967090997e+31   0.00e+00  5.53e-77    5.700000e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Thu May 14 14:50:51 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1/1e-9):($2/1e-9)
+        format = x:z
+        #datapoints = 1672
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(λ) =2*6.6260*10**(-34)*(2.99792*10**8)**2/(λ**5*exp(6.626*10**(-34)*2.99792*10**8/(λ*1.3806*10**(-23)*T))-1)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T            
+   0 1.1967090997e+21   0.00e+00  0.00e+00    5.700000e+03
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Thu May 14 14:53:38 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1*1e-9):($2*1e-9)
+        format = x:z
+        #datapoints = 1672
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(λ) =2*6.6260*10**(-34)*(2.99792*10**8)**2/(λ**5*exp(6.626*10**(-34)*2.99792*10**8/(λ*1.3806*10**(-23)*T))-1)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T            
+   0 1.1967093206e-15   0.00e+00  0.00e+00    5.700000e+03
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Thu May 14 14:55:26 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1*1e-9):($2*1e9)
+        format = x:z
+        #datapoints = 1672
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(λ) =2*6.6260*10**(-34)*(2.99792*10**8)**2/(λ**5*exp(6.626*10**(-34)*2.99792*10**8/(λ*1.3806*10**(-23)*T))-1)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T            
+   0 1.1967090997e+21   0.00e+00  0.00e+00    5.700000e+03
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Thu May 14 14:57:02 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1*1e-9):($2*1e9)
+        format = x:z
+        #datapoints = 1672
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(λ)
+	f(λ) =2*6.6260*10**(-34)*(2.99792*10**8)**2/(λ**5*exp(6.626*10**(-34)*2.99792*10**8/(λ*1.3806*10**(-23)*T))-1)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Thu May 14 14:58:40 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1*1e-9):($2*1e9)
+        format = x:z
+        #datapoints = 1672
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) =2*6.6260*10**(-34)*(2.99792*10**8)**2/(λ**5*exp(6.626*10**(-34)*2.99792*10**8/(λ*1.3806*10**(-23)*T))-1)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Thu May 14 14:59:05 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1*1e-9):($2*1e9)
+        format = x:z
+        #datapoints = 1672
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) =2*6.6260*10**(-34)*(2.99792*10**8)**2/(x**5*exp(6.626*10**(-34)*2.99792*10**8/(x*1.3806*10**(-23)*T))-1)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T            
+   0 1.1967090997e+21   0.00e+00  0.00e+00    5.700000e+03
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Thu May 14 15:00:04 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1*1e-9):($2*1e9)
+        format = x:z
+        #datapoints = 1672
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) =2*6.6260*10**(-34)*(2.99792*10**8)**2/(x**5*exp(6.626*10**(-34)*2.99792*10**8/(x*1.3806*10**(-23)*T))-1)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T            
+   0 1.1967090997e+21   0.00e+00  0.00e+00    5.778000e+03
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Thu May 14 15:03:38 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using 1:2
+        format = x:z
+        #datapoints = 1672
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) =2*6.6260*10**(-34)*(2.99792*10**8)**2/(x**5*exp(6.626*10**(-34)*2.99792*10**8/(x*1.3806*10**(-23)*T))-1)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T            
+   0 1.1967090997e+03   0.00e+00  8.39e-36    5.778000e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Thu May 14 15:10:15 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1*1e-9):($2*1e9)
+        format = x:z
+        #datapoints = 1672
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) =2*6.6260*10**(-34)*(2.99792*10**8)**2/(x**5*exp(6.626*10**(-34)*2.99792*10**8/(x*1.3806*10**(-23)*T))-1)*(696340*10**3)**2*pi/(1.5*10**12)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T            
+   0 1.1967090997e+21   0.00e+00  0.00e+00    5.778000e+03
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Thu May 14 15:15:35 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1*1e-9):($2*1e9)
+        format = x:z
+        #datapoints = 1672
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) =119.102672*10**(-18)/(x**5*exp(19.8642179*10**(-26)/(x*1.3806*10**(-23)*T))-1)*4.84889*10**17*pi/(1.5*10**12)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T            
+   0 1.1967090997e+21   0.00e+00  0.00e+00    5.778000e+03
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Thu May 14 15:18:42 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1*1e-9):($2*1e9)
+        format = x:z
+        #datapoints = 1672
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) =119.102672*10**(-18)*4.84889*10**17*pi/(x**5*1.5*10**12*exp(19.8642179*10**(-26)/(x*1.3806*10**(-23)*T))-1)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T            
+   0 1.1967094362e+21   0.00e+00  9.38e-12    5.778000e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Thu May 14 15:22:20 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1*1e-9):($2*1e9)
+        format = x:z
+        #datapoints = 1672
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) =119.102672*10**(-18)*4.84889*10**17*pi/(x**5*1.5*10**12*exp(19.8642179*10**(-26)/(x*1.3806*10**(-23)*T))-1)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T            
+   0 1.1967094362e+21   0.00e+00  9.38e-12    5.778000e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Thu May 14 15:26:00 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1*1e-9):($2*1e9)
+        format = x:z
+        #datapoints = 1672
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=2*6.6260*10**(-34)*(2.99792*10**8)**2/(x**5*(exp(6.626*10**(-34)*2.99792*10**8/(x*1.3806*10**(-23)*T))-1))*(696340*10**3)**2*pi/(1.5*10**12)**2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T            
+   0 1.1734926941e+21   0.00e+00  4.22e+07    5.778000e+03
+  21 9.3455987825e+20  -8.26e-01  4.22e+04    1.222817e+04
+
+After 21 iterations the fit converged.
+final sum of squares of residuals : 9.3456e+20
+rel. change during last iteration : -8.25572e-06
+
+degrees of freedom    (FIT_NDF)                        : 1671
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 7.47851e+08
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.59282e+17
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+T               = 12228.2          +/- 173.6        (1.419%)
+
+
+*******************************************************************************
+Thu May 14 15:30:49 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1*1e-9):($2*1e9)
+        format = x:z
+        #datapoints = 1672
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=2*6.6260*10**(-34)*(2.99792*10**8)**2/(x**5*(exp(6.626*10**(-34)*2.99792*10**8/(x*1.3806*10**(-23)*T))-1))*(696340*10**3)**2*pi/(1.5*10**12)**2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T            
+   0 1.1734926941e+21   0.00e+00  4.22e+07    5.778000e+03
+  21 9.3455987825e+20  -8.26e-01  4.22e+04    1.222817e+04
+
+After 21 iterations the fit converged.
+final sum of squares of residuals : 9.3456e+20
+rel. change during last iteration : -8.25572e-06
+
+degrees of freedom    (FIT_NDF)                        : 1671
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 7.47851e+08
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.59282e+17
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+T               = 12228.2          +/- 173.6        (1.419%)
+
+
+*******************************************************************************
+Thu May 14 15:33:19 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1*1e-9):($2*1e9)
+        format = x:z
+        #datapoints = 1672
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=2*6.6260*10**(-34)*(2.99792*10**8)**2/(x**5*(exp(6.626*10**(-34)*2.99792*10**8/(x*1.3806*10**(-23)*T))-1))*(696340*10**3)**2*pi/(1.5*10**12)**2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T            
+   0 1.1734926941e+21   0.00e+00  4.22e+07    5.778000e+03
+  21 9.3455987825e+20  -8.26e-01  4.22e+04    1.222817e+04
+
+After 21 iterations the fit converged.
+final sum of squares of residuals : 9.3456e+20
+rel. change during last iteration : -8.25572e-06
+
+degrees of freedom    (FIT_NDF)                        : 1671
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 7.47851e+08
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.59282e+17
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+T               = 12228.2          +/- 173.6        (1.419%)
+
+
+*******************************************************************************
+Thu May 14 15:35:18 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1*1e-9):($2*1e9)
+        format = x:z
+        #datapoints = 1672
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=2*6.6260*10**(-34)*(2.99792*10**8)**2/(x**5*(exp(6.626*10**(-34)*2.99792*10**8/(x*1.3806*10**(-23)*T))-1))*(696340*10**3)**2*pi/(1.5*10**12)**2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T            
+   0 1.1734926941e+21   0.00e+00  4.22e+07    5.778000e+03
+  21 9.3455987825e+20  -8.26e-01  4.22e+04    1.222817e+04
+
+After 21 iterations the fit converged.
+final sum of squares of residuals : 9.3456e+20
+rel. change during last iteration : -8.25572e-06
+
+degrees of freedom    (FIT_NDF)                        : 1671
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 7.47851e+08
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.59282e+17
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+T               = 12228.2          +/- 173.6        (1.419%)
+
+
+*******************************************************************************
+Thu May 14 15:35:33 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1*1e-9):($2*1e9)
+        format = x:z
+        #datapoints = 1672
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=2*6.6260*10**(-34)*(2.99792*10**8)**2/(x**5*(exp(6.626*10**(-34)*2.99792*10**8/(x*1.3806*10**(-23)*T))-1))*(696340*10**3)**2*pi/(1.5*10**12)**2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T            
+   0 1.1734926941e+21   0.00e+00  4.22e+07    5.778000e+03
+  21 9.3455987825e+20  -8.26e-01  4.22e+04    1.222817e+04
+
+After 21 iterations the fit converged.
+final sum of squares of residuals : 9.3456e+20
+rel. change during last iteration : -8.25572e-06
+
+degrees of freedom    (FIT_NDF)                        : 1671
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 7.47851e+08
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.59282e+17
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+T               = 12228.2          +/- 173.6        (1.419%)
+
+
+*******************************************************************************
+Thu May 14 15:36:59 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1*1e-9):($2*1e9)
+        format = x:z
+        #datapoints = 1672
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=2*6.6260*10**(-34)*(2.99792*10**8)**2/(x**5*(exp(6.626*10**(-34)*2.99792*10**8/(x*1.3806*10**(-23)*T))-1))*(696340*10**3)**2*pi/(1.5*10**12)**2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T            
+   0 1.1734926941e+21   0.00e+00  4.22e+07    5.778000e+03
+  21 9.3455987825e+20  -8.26e-01  4.22e+04    1.222817e+04
+
+After 21 iterations the fit converged.
+final sum of squares of residuals : 9.3456e+20
+rel. change during last iteration : -8.25572e-06
+
+degrees of freedom    (FIT_NDF)                        : 1671
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 7.47851e+08
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.59282e+17
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+T               = 12228.2          +/- 173.6        (1.419%)
+
+
+*******************************************************************************
+Thu May 14 15:37:46 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1*1e-9):($2*1e9)
+        format = x:z
+        #datapoints = 1672
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=2*6.6260*10**(-34)*(2.99792*10**8)**2/(x**5*(exp(6.626*10**(-34)*2.99792*10**8/(x*1.3806*10**(-23)*T))-1))*(696340*10**3)**2*pi/(1.5*10**12)**2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T            
+   0 1.1734926941e+21   0.00e+00  4.22e+07    5.778000e+03
+  21 9.3455987825e+20  -8.26e-01  4.22e+04    1.222817e+04
+
+After 21 iterations the fit converged.
+final sum of squares of residuals : 9.3456e+20
+rel. change during last iteration : -8.25572e-06
+
+degrees of freedom    (FIT_NDF)                        : 1671
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 7.47851e+08
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.59282e+17
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+T               = 12228.2          +/- 173.6        (1.419%)
+
+
+*******************************************************************************
+Thu May 14 15:39:32 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1*1e-9):($2*1e9)
+        format = x:z
+        #datapoints = 1672
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=2*6.6260*10**(-34)*(2.99792*10**8)**2/(x**5*(exp(6.626*10**(-34)*2.99792*10**8/(x*1.3806*10**(-23)*T))-1))*(696340*10**3)**2*pi/(1.5*10**12)**2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T            
+   0 1.1734926941e+21   0.00e+00  4.22e+07    5.778000e+03
+  21 9.3455987825e+20  -8.26e-01  4.22e+04    1.222817e+04
+
+After 21 iterations the fit converged.
+final sum of squares of residuals : 9.3456e+20
+rel. change during last iteration : -8.25572e-06
+
+degrees of freedom    (FIT_NDF)                        : 1671
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 7.47851e+08
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.59282e+17
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+T               = 12228.2          +/- 173.6        (1.419%)
+
+
+*******************************************************************************
+Thu May 14 15:39:57 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1*1e-9):($2*1e9)
+        format = x:z
+        #datapoints = 1672
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=2*6.6260*10**(-34)*(2.99792*10**8)**2/(x**5*(exp(6.626*10**(-34)*2.99792*10**8/(x*1.3806*10**(-23)*T))-1))*(696340*10**3)**2*pi/(1.5*10**12)**2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T            
+   0 1.1734926941e+21   0.00e+00  4.22e+07    5.778000e+03
+  21 9.3455987825e+20  -8.26e-01  4.22e+04    1.222817e+04
+
+After 21 iterations the fit converged.
+final sum of squares of residuals : 9.3456e+20
+rel. change during last iteration : -8.25572e-06
+
+degrees of freedom    (FIT_NDF)                        : 1671
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 7.47851e+08
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.59282e+17
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+T               = 12228.2          +/- 173.6        (1.419%)
+
+
+*******************************************************************************
+Thu May 14 15:41:41 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1*1e-9):($2*1e9)
+        format = x:z
+        #datapoints = 1672
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=2*6.6260*10**(-34)*(2.99792*10**8)**2/(x**5*(exp(6.626*10**(-34)*2.99792*10**8/(x*1.3806*10**(-23)*T))-1))*(696340*10**3)**2*pi/(1.5*10**12)**2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T            
+   0 1.1734926941e+21   0.00e+00  4.22e+07    5.778000e+03
+  21 9.3455987825e+20  -8.26e-01  4.22e+04    1.222817e+04
+
+After 21 iterations the fit converged.
+final sum of squares of residuals : 9.3456e+20
+rel. change during last iteration : -8.25572e-06
+
+degrees of freedom    (FIT_NDF)                        : 1671
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 7.47851e+08
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.59282e+17
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+T               = 12228.2          +/- 173.6        (1.419%)
+
+
+*******************************************************************************
+Thu May 14 15:43:47 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1*1e-9):($2*1e9)
+        format = x:z
+        x range restricted to [9000.00 : 11000.0]
+BREAK: No data to fit
+
+*******************************************************************************
+Thu May 14 15:44:31 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1*1e-9):($2*1e9)
+        format = x:z
+        #datapoints = 1672
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=2*6.6260*10**(-34)*(2.99792*10**8)**2/(x**5*(exp(6.626*10**(-34)*2.99792*10**8/(x*1.3806*10**(-23)*T))-1))*(696340*10**3)**2*pi/(1.5*10**12)**2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T            
+   0 1.1734926941e+21   0.00e+00  4.22e+07    5.778000e+03
+  21 9.3455987825e+20  -8.26e-01  4.22e+04    1.222817e+04
+
+After 21 iterations the fit converged.
+final sum of squares of residuals : 9.3456e+20
+rel. change during last iteration : -8.25572e-06
+
+degrees of freedom    (FIT_NDF)                        : 1671
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 7.47851e+08
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.59282e+17
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+T               = 12228.2          +/- 173.6        (1.419%)
+
+
+*******************************************************************************
+Thu May 14 15:48:29 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1*1e-9):($2*1e9)
+        format = x:z
+        x range restricted to [0.00000 : 5.00000e-06]
+        #datapoints = 1571
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=2*6.6260*10**(-34)*(2.99792*10**8)**2/(x**5*(exp(6.626*10**(-34)*2.99792*10**8/(x*1.3806*10**(-23)*T))-1))*(696340*10**3)**2*pi/(1.5*10**12)**2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T            
+   0 1.1734925094e+21   0.00e+00  4.35e+07    5.778000e+03
+  22 9.3455970325e+20  -8.30e-01  4.35e+04    1.222819e+04
+
+After 22 iterations the fit converged.
+final sum of squares of residuals : 9.3456e+20
+rel. change during last iteration : -8.29675e-06
+
+degrees of freedom    (FIT_NDF)                        : 1570
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 7.71532e+08
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.95261e+17
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+T               = 12228.2          +/- 179.1        (1.464%)
+
+
+*******************************************************************************
+Thu May 14 15:54:37 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1*1e-9):($2*1e9)
+        format = x:z
+        x range restricted to [0.00000 : 5.00000e-06]
+        #datapoints = 1571
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=(2*6.6260*10**(-34)*(2.99792*10**8)**2)/(x**5*(exp(6.626*10**(-34)*2.99792*10**8/(x*1.3806*10**(-23)*T))-1))*(696340*10**3)**2*pi/(1.5*10**12)**2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T            
+   0 1.1734925094e+21   0.00e+00  4.35e+07    5.778000e+03
+  22 9.3455970325e+20  -8.30e-01  4.35e+04    1.222819e+04
+
+After 22 iterations the fit converged.
+final sum of squares of residuals : 9.3456e+20
+rel. change during last iteration : -8.29675e-06
+
+degrees of freedom    (FIT_NDF)                        : 1570
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 7.71532e+08
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.95261e+17
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+T               = 12228.2          +/- 179.1        (1.464%)
+
+
+*******************************************************************************
+Thu May 14 15:54:53 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1*1e-9):($2*1e9)
+        format = x:z
+        x range restricted to [0.00000 : 5.00000e-06]
+        #datapoints = 1571
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=(2*6.6260*10**(-34)*(2.99792*10**8)**2)/(x**5*(exp(6.626*10**(-34)*2.99792*10**8/(x*1.3806*10**(-23)*T))-1))*((696340*10**3)**2*pi/(1.5*10**12)**2)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T            
+   0 1.1734925094e+21   0.00e+00  4.35e+07    5.778000e+03
+  22 9.3455970325e+20  -8.30e-01  4.35e+04    1.222819e+04
+
+After 22 iterations the fit converged.
+final sum of squares of residuals : 9.3456e+20
+rel. change during last iteration : -8.29675e-06
+
+degrees of freedom    (FIT_NDF)                        : 1570
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 7.71532e+08
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.95261e+17
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+T               = 12228.2          +/- 179.1        (1.464%)
+
+
+*******************************************************************************
+Thu May 14 16:07:16 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1*1e-9):($2*1e9)
+        format = x:z
+        x range restricted to [0.00000 : 5.00000e-06]
+        #datapoints = 1571
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=(2*pi*(6.96*10**8)**2*(2.998*10**8)**2)/((1.5*10**12)**2*x**5*(exp(6.626*10**(-34)*2.998*10**8/(x*1/3806*10**(-23)*T))-1))
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 1 out of 1571
+x               = 5778           
+z               = 61900          
+
+Current set of parameters
+=========================
+T               = 5778           
+
+BREAK: Undefined value during function evaluation
+
+*******************************************************************************
+Thu May 14 16:07:39 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1*1e-9):($2*1e9)
+        format = x:z
+        x range restricted to [0.00000 : 5.00000e-06]
+        #datapoints = 1571
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=(2*pi*(6.96*10**8)**2*(2.998*10**8)**2)/((1.5*10**12)**2*x**5*(exp(6.626*10**(-34)*2.998*10**8/(x*1.3806*10**(-23)*T))-1))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T            
+   0 2.6459860242e+83   0.00e+00  6.56e+40    5.778000e+03
+   1 3.3870741651e+82  -6.81e+05  6.56e+39    4.682305e+03
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 3.38707e+82
+rel. change during last iteration : -6.81201
+
+degrees of freedom    (FIT_NDF)                        : 1570
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.64475e+39
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.15737e+79
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+T               = 4682.3           +/- 22.92        (0.4896%)
+
+
+*******************************************************************************
+Thu May 14 16:09:17 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1*1e-9):($2*1e9)
+        format = x:z
+        x range restricted to [0.00000 : 5.00000e-06]
+        #datapoints = 1571
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=(2*pi*(6.96*10**8)**2*(2.998*10**8)**2)/((1.496*10**11)**2*x**5*(exp(6.626*10**(-34)*2.998*10**8/(x*1.3806*10**(-23)*T))-1))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T            
+   0 2.6743990424e+87   0.00e+00  6.60e+42    5.778000e+03
+   1 3.4234451054e+86  -6.81e+05  6.60e+41    4.682305e+03
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 3.42345e+86
+rel. change during last iteration : -6.81201
+
+degrees of freedom    (FIT_NDF)                        : 1570
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.66962e+41
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.18054e+83
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+T               = 4682.3           +/- 22.92        (0.4896%)
+
+
+*******************************************************************************
+Thu May 14 16:09:32 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1*1e-9):($2*1e9)
+        format = x:z
+        x range restricted to [0.00000 : 5.00000e-06]
+        #datapoints = 1571
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=(2*pi*(6.96*10**8)**2*(2.998*10**8)**2)/((1.496*10**11)**2*x**5*(exp(6.626*10**(-34)*2.998*10**8/(x*1.3806*10**(-23)*T))-1))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T            
+   0 2.6743990424e+87   0.00e+00  6.60e+42    5.778000e+03
+   1 3.4234451054e+86  -6.81e+05  6.60e+41    4.682305e+03
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 3.42345e+86
+rel. change during last iteration : -6.81201
+
+degrees of freedom    (FIT_NDF)                        : 1570
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.66962e+41
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.18054e+83
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+T               = 4682.3           +/- 22.92        (0.4896%)
+
+
+*******************************************************************************
+Thu May 14 16:11:24 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1*1e-9):($2*1e9)
+        format = x:z
+        x range restricted to [0.00000 : 5.00000e-06]
+        #datapoints = 1571
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=(2*pi*(6.96*10**8)**2*(2.998*10**8)**2)/((1.496*10**12)**2*x**5*(exp(6.626*10**(-34)*2.998*10**8/(x*1.3806*10**(-23)*T))-1))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T            
+   0 2.6743990424e+83   0.00e+00  6.60e+40    5.778000e+03
+   1 3.4234451054e+82  -6.81e+05  6.60e+39    4.682305e+03
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 3.42345e+82
+rel. change during last iteration : -6.81201
+
+degrees of freedom    (FIT_NDF)                        : 1570
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.66962e+39
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.18054e+79
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+T               = 4682.3           +/- 22.92        (0.4896%)
+
+
+*******************************************************************************
+Thu May 14 16:15:02 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1*1e-9):($2*1e9)
+        format = x:z
+        x range restricted to [0.00000 : 5.00000e-06]
+        #datapoints = 1571
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=(2*pi*(6.96*10**8)**2*(2.998*10**8)**2)/((1.496*10**11)**2*x**5*(exp(6.626*10**(-34)*2.998*10**8/(x*1.3806*10**(-23)*T))-1))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T            
+   0 2.6743990424e+87   0.00e+00  6.60e+42    5.778000e+03
+   1 3.4234451054e+86  -6.81e+05  6.60e+41    4.682305e+03
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 3.42345e+86
+rel. change during last iteration : -6.81201
+
+degrees of freedom    (FIT_NDF)                        : 1570
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.66962e+41
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.18054e+83
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+T               = 4682.3           +/- 22.92        (0.4896%)
+
+
+*******************************************************************************
+Thu May 14 16:15:45 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1*1e-9):($2*1e9)
+        format = x:z
+        x range restricted to [0.00000 : 5.00000e-06]
+        #datapoints = 1571
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Thu May 14 16:15:59 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1*1e-9):($2*1e9)
+        format = x:z
+        x range restricted to [0.00000 : 5.00000e-06]
+        #datapoints = 1571
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=(2*6.6260*10**(-34)*(2.99792*10**8)**2)/(x**5*(exp(6.626*10**(-34)*2.99792*10**8/(x*1.3806*10**(-23)*T))-1))*((696340*10**3)**2*pi/(1.5*10**11)**2)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T            
+   0 2.7566072165e+19   0.00e+00  4.35e+09    5.778000e+03
+   3 2.6963864971e+19   0.00e+00  4.35e+15    5.752104e+03
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 2.69639e+19
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 1570
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.31051e+08
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.71744e+16
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+T               = 5752.1           +/- 4.463        (0.07759%)
+
+
+*******************************************************************************
+Thu May 14 16:23:59 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1*1e-9):($2*1e9)
+        format = x:z
+        x range restricted to [0.00000 : 5.00000e-06]
+        #datapoints = 1571
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=(2*6.6260*10**(-34)*(2.9979*10**8)**2)/(x**5*(exp(6.6261*10**(-34)*2.9979*10**8/(x*1.3806*10**(-23)*T))-1))*((696340*10**3)**2*pi/(1.4960*10**11)**2)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T            
+   0 2.7569747800e+19   0.00e+00  4.38e+09    5.778000e+03
+   3 2.6673358668e+19  -1.54e-11  4.38e+14    5.746527e+03
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 2.66734e+19
+rel. change during last iteration : -1.53561e-16
+
+degrees of freedom    (FIT_NDF)                        : 1570
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.30343e+08
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.69894e+16
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+T               = 5746.53          +/- 4.432        (0.07712%)
+
+
+*******************************************************************************
+Thu May 14 16:25:25 2020
+
+
+FIT:    data read from "solar_spectrum_ASTM_E-490.csv" using ($1*1e-9):($2*1e9)
+        format = x:z
+        x range restricted to [0.00000 : 3.00000e-06]
+        #datapoints = 1472
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=(2*6.6260*10**(-34)*(2.9979*10**8)**2)/(x**5*(exp(6.6261*10**(-34)*2.9979*10**8/(x*1.3806*10**(-23)*T))-1))*((696340*10**3)**2*pi/(1.4960*10**11)**2)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T            
+   0 2.7569727579e+19   0.00e+00  4.52e+09    5.778000e+03
+   3 2.6673342509e+19   0.00e+00  4.52e+15    5.746527e+03
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 2.66733e+19
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 1471
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.34658e+08
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.81328e+16
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+T               = 5746.53          +/- 4.578        (0.07967%)
